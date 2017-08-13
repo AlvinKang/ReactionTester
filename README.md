@@ -1,0 +1,2 @@
+# ReactionTester
+This is a JavaScript-driven basic browser game that tests out your reaction skills! Click on the colorful shapes as soon as they appear! You can start playing by clicking [here](https://alvinkang.github.io/ReactionTester/).
