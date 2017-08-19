@@ -17,7 +17,7 @@ var clickedTime; var createdTime; var reactionTime; var bestTime;
 var firstTime = true;
 
 /**
- * Creates a circle or triangle with varying color and 
+ * Creates a circle or triangle with varying color and
  * 	position on page
  * @param  {String} shapeID Name of div id to be manipulated
  */
@@ -27,15 +27,15 @@ function makeShape(shapeID) {
 	setTimeout(function() {
 
 		document.getElementById(shapeID).style.backgroundColor = getRandomColor();
-		
+
 		if (Math.random() > 0.5)
 			document.getElementById(shapeID).style.borderRadius = "50px";
-		else 
+		else
 			document.getElementById(shapeID).style.borderRadius = "0";
-		
+
 		document.getElementById(shapeID).style.marginTop = Math.round(Math.random() * 300)+"px";
 
-		document.getElementById(shapeID).style.marginLeft = Math.round(Math.random() * 300)+"px";
+		document.getElementById(shapeID).style.marginLeft = 500 + Math.round(Math.random() * 300)+"px";
 
 		document.getElementById(shapeID).style.display = "block";
 		createdTime = Date.now();
